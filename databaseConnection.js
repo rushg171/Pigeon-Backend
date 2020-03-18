@@ -3,7 +3,7 @@ const { databaseServer } = require("./utils/config.js.js");
 
 try {
   mongoose.connect(
-    "mongodb://heroku_2dmjmp9k:nc7t7j7k095sevo7h38vbiuedc@ds145584.mlab.com:45584/heroku_2dmjmp9k",
+    "mongodb://heroku_bqjqx9vz:4efcmg3gec5a3a1s3v0lc90mj2@ds031632.mlab.com:31632/heroku_bqjqx9vz",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
