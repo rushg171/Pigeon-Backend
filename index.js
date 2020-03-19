@@ -11,5 +11,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(indexRouter);
 app.use(cors());
+app.use(res.header("Access-Control-Allow-Origin", "*"));
 
 app.listen(PORT, () => console.log("Server Started!"));
